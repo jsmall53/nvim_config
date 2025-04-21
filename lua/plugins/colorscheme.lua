@@ -29,6 +29,13 @@ return {
     priority = 1000,
     config = function()
         require("gruvbox").setup({
+            bold = true,
+            italic = {
+                strings = false,
+                emphasis = false,
+                comments = true
+            },
+            transparent_mode = false,
         })
         vim.cmd("colorscheme gruvbox")
     end
