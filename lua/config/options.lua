@@ -11,9 +11,7 @@ vim.opt.wrap = false
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.schedule(function()
-    vim.opt.clipboard = 'unnamedplus'
-end)
+vim.opt.clipboard = 'unnamedplus'
 
 vim.opt.breakindent = true
 vim.opt.mouse = 'a'
